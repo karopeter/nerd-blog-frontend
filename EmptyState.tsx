@@ -27,8 +27,8 @@ export default function EmptyState({ searchQuery }: EmptyStateProps) {
         <p className="text-gray-600 text-lg">
           {searchQuery ? (
             <>
-              We couldn`t find any posts matching{' '}
-              <span className="font-semibold text-gray-900">"{searchQuery}"</span>
+              We couldn&apos;t find any posts matching{' '}
+              <span className="font-semibold text-gray-900">&quot;{searchQuery}&quot;</span>
               <br />
               Try adjusting your search terms.
             </>
