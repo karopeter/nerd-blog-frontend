@@ -50,7 +50,6 @@ export const postsApi = {
         },
       });
 
-      // Validate response with Zod
       const validatedData = paginatedResponseSchema.parse(data);
       return validatedData;
     } catch (error) {
